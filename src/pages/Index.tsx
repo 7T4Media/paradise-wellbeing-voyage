@@ -26,9 +26,9 @@ const Index = () => {
           muted
           loop
           className="w-full h-full object-cover opacity-30"
-          poster="https://images.unsplash.com/photo-1543332164-6e82f355badc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
+          poster="https://images.unsplash.com/photo-1482938289607-e9573fc25ebb?auto=format&fit=crop&w=1200&q=80"
         >
-          <source src="https://videos.pexels.com/video-files/4056462/4056462-hd_1920_1080_25fps.mp4" type="video/mp4" />
+          <source src="https://player.vimeo.com/external/368482556.sd.mp4?s=745faaf1180e4c88cd8ab31f31eaaf2fae8f524b&profile_id=164" type="video/mp4" />
           {/* Fallback for browsers that don't support video */}
           <div className="w-full h-full bg-gradient-to-br from-tropical-ocean to-tropical-teal"></div>
         </video>
